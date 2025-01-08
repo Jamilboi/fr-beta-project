@@ -1084,6 +1084,7 @@ void GetConditionMenuMonGfx(void *tilesDst, void *palDst, u16 boxId, u16 monId, 
 
         LoadSpecialPokePic(tilesDst, species, personality, TRUE);
         LZ77UnCompWram(GetMonSpritePalFromSpeciesAndPersonality(species, isShiny, personality), palDst);
+        HueShiftMonPalette((u16*) palDst, personality);
     }
 }
 
