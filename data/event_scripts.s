@@ -1153,3 +1153,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/birch_speech.inc"
 
 	.include "data/maps/PalletTown/scripts.inc"
+
+	.include "data/maps/PalletTown_PlayerHouseF2/scripts.inc"
+
+	.include "data/maps/PalletTown_PlayerHouseF1/scripts.inc"
