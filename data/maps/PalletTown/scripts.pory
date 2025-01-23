@@ -1,0 +1,4 @@
+raw `
+PalletTown_MapScripts::
+	.byte 0
+`
