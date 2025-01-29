@@ -2,3 +2,11 @@ raw `
 PalletTown_MapScripts::
 	.byte 0
 `
+
+script PalletTown_FlowerGirl
+{
+	lock
+	faceplayer
+	msgbox(format("I've told you this a million times, {PLAYER}, watch where you're stepping! If you trample even one of my flowers, I'll be letting your mother know!"))
+	release
+}

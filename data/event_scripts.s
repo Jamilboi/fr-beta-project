@@ -1157,3 +1157,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/PalletTown_PlayerHouseF2/scripts.inc"
 
 	.include "data/maps/PalletTown_PlayerHouseF1/scripts.inc"
+
+	.include "data/maps/PalletTown_RivalsHouse_F1/scripts.inc"

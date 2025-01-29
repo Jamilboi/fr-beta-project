@@ -4440,6 +4440,16 @@
       "secondary_tileset": "gTileset_GenericBuilding1",
       "border_filepath": "data/layouts/PalletTown_PlayerHouseF1/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_PlayerHouseF1/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_RIVALS_HOUSE_F1",
+      "name": "PalletTown_RivalsHouse_F1_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_building_kanto",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/PalletTown_RivalsHouse_F1/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_RivalsHouse_F1/map.bin"
     }
   ]
 }

@@ -2,3 +2,16 @@ raw `
 PalletTown_PlayerHouseF1_MapScripts::
 	.byte 0
 `
+
+script PalletTown_PlayerHouseF1_Mom
+{
+	lock
+	faceplayer
+	checkplayergender
+    if (var(VAR_RESULT) == MALE) {
+        msgbox(format("All boys leave home someday. It said so on the TV."))
+    } else {
+        msgbox(format("All girls leave home someday. It said so on the TV."))
+    }
+	release
+}
